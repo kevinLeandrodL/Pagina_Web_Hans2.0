@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet"
+  		  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    	  <script src="https://kit.fontawesome.com/4477d2e0c5.js" crossorigin="anonymous"></script>	
+
+	<!--Boostrap-->
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/popper.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/sweetalert2.min.css"><link rel="stylesheet" href="Estiloss.css" />
+    
+
+    <title>CategoriaBebidaAlcoholicas</title>
+</head>
+<body>
+<header>
+
+    
+
+    <div class="header-icons"> 
+			<header>			
+				<div class="container">
+					<div class="row align-items-stretch justify-content-between">
+						<nav class="navbar navbar-expand-md navbar-dark fixed-top ">
+							<a class="logo" href="index.html">
+								<i class="fa-brands fa-atlassian"></i>HANS
+								 </a>													
+							<div class="collapse navbar-collapse float-left" id="navbarCollapse">
+								<ul class="navbar-nav">
+									<li class="nav-item dropdown">
+										<img src="img/Carrito.png" class="nav-link dropdown-toggle img-fluid" height="70px"
+											width="70px" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+											aria-expanded="false"></img>
+										<div id="carrito" class="dropdown-menu" aria-labelledby="navbarCollapse">
+											<table id="lista-carrito" class="table">
+												<thead>
+													<tr>
+														<th>Producto</th>
+														<th>Nombre</th>
+														<th>Precio</th>
+														<th></th>
+													</tr>
+												</thead>
+												<tbody></tbody>
+											</table>	
+											<a href="#" id="vaciar-carrito" class="btn btn-block">Eliminar Productos</a>
+											<a href="#" id="procesar-pedido" class="btn btn-block">Procesar Compra</a>
+										</div>
+									</li>
+								</ul>
+							</div>							
+							<a href="login.html"><i class='bx bx-user'>Login</i></a>
+							<div class="bx bx-menu" id="menu-icon"></div>
+						</nav>
+					</div>
+				</div>				
+				
+			</header>	
+
+        
+
+    </div>
+
+	
+</header>
+
+	<main> 
+		<section class="product" id="promociones">
+			<div class="center-text">
+				<h5>CATEGORIA</h5>
+				<h2>BEBIDAS ALCOHOLICAS</h2>
+			</div>
+
+			<div class="promotion-product" id="lista-productos">
+
+				<div class="box">
+					<div class="box-img">
+						<img src="img/promo1.png" class="">
+					</div> 
+					<div class="">
+						<h4>Ron Cartavio 750ml + CocaCola 2L + Hielo</h4>
+						<p class="tachado">Precio : $29.99</p>
+						<h4 class=" precio">S/. <span class="">24.99</span> </h4>
+						<a href="#" class="price agregar-carrito" data-id="1">Comprar</a>
+						<div class="inbox">
+							
+							<div class="rating">
+								<a href="#"><i id="facebook" class="fa-brands fa-facebook"></i></a>
+								<a href="#"><i id="whatsapp" class="fa-brands fa-whatsapp"></i></a>
+								<a href="#"><i id="instagram"class="fa-brands fa-instagram"></i></a>
+								
+							</div>
+				        </div>
+					</div>
+
+				    <div class="heart">
+						<i class="fa-solid fa-bars"></i>
+				    </div>
+				</div>
+
+				<div class="box">
+					<div class="box-img">
+						<img src="img/combo3.jpg" class="">
+					</div> 
+					<div class="">
+						<h4>Red Label 750ml + Guarana 2L + Hielo</h4>
+						<p class="tachado">Precio : $39.99</p>
+						<h4 class=" precio">S/. <span class="">23.99</span> </h4>
+						<a href="#" class="price agregar-carrito" data-id="2">Comprar</a>
+						<div class="inbox">
+							
+							<div class="rating">
+								<a href="#"><i id="facebook" class="fa-brands fa-facebook"></i></a>
+								<a href="#"><i id="whatsapp" class="fa-brands fa-whatsapp"></i></a>
+								<a href="#"><i id="instagram"class="fa-brands fa-instagram"></i></a>
+								
+							</div>
+				        </div>
+					</div>
+
+				    <div class="heart">
+						<i class="fa-solid fa-bars"></i>
+				    </div>
+				</div>
+
+				<div class="box">
+					<div class="box-img">
+						<img src="img/combo4.png" class="">
+					</div> 
+					<div class="">
+						<h4>Ron Ballenitas 500ml + Guarana 2L + Hielo</h4>
+						<p class="tachado">Precio : $49.99</p>
+						<h4 class=" precio">S/. <span class="">29.99</span> </h4>
+						<a href="#" class="price agregar-carrito" data-id="3">Comprar</a>
+						<div class="inbox">
+							
+							<div class="rating">
+								<a href="#"><i id="facebook" class="fa-brands fa-facebook"></i></a>
+								<a href="#"><i id="whatsapp" class="fa-brands fa-whatsapp"></i></a>
+								<a href="#"><i id="instagram"class="fa-brands fa-instagram"></i></a>
+								
+							</div>
+				        </div>
+					</div>
+
+				    <div class="heart">
+						<i class="fa-solid fa-bars"></i>
+				    </div>
+				</div>
+
+				<div class="box">
+					<div class="box-img">
+						<img src="img/combo5.png" class="">
+					</div> 
+					<div class="">
+						<h4>Ron Cartavio 750ml + CocaCola 2L</h4>
+						<p class="tachado">Precio : $24.99</p>
+						<h4 class=" precio">S/. <span class="">24.99</span> </h4>
+						<a href="#" class="price agregar-carrito" data-id="4">Comprar</a>
+						<div class="inbox">
+							
+							<div class="rating">
+								<a href="#"><i id="facebook" class="fa-brands fa-facebook"></i></a>
+								<a href="#"><i id="whatsapp" class="fa-brands fa-whatsapp"></i></a>
+								<a href="#"><i id="instagram"class="fa-brands fa-instagram"></i></a>
+								
+							</div>
+				        </div>
+					</div>
+
+				    <div class="heart">
+						<i class="fa-solid fa-bars"></i>
+				    </div>
+				</div>
+
+				<div class="box">
+					<div class="box-img">
+						<img src="img/combo6.jpg" class="">
+					</div> 
+					<div class="">
+						<h4>Ron Dark 750ml + Ginger 2L + Hielo</h4>
+						<p class="tachado">Precio : $24.99</p>
+						<h4 class=" precio">S/. <span class="">21.99</span> </h4>
+						<a href="#" class="price agregar-carrito" data-id="5">Comprar</a>
+						<div class="inbox">
+							
+							<div class="rating">
+								<a href="#"><i id="facebook" class="fa-brands fa-facebook"></i></a>
+								<a href="#"><i id="whatsapp" class="fa-brands fa-whatsapp"></i></a>
+								<a href="#"><i id="instagram"class="fa-brands fa-instagram"></i></a>
+								
+							</div>
+				        </div>
+					</div>
+
+				    <div class="heart">
+						<i class="fa-solid fa-bars"></i>
+				    </div>
+				</div>
+
+				<div class="box">
+					<div class="box-img">
+						<img src="img/combo7.png" class="">
+					</div> 
+					<div class="">
+						<h4>Vino Abuelo 1Litro + CocaCola 2L + Hielo</h4>
+						<p class="tachado">Precio : $24.99</p>
+						<h4 class=" precio">S/. <span class="">29.99</span> </h4>
+						<a href="#" class="price agregar-carrito" data-id="6">Comprar</a>
+						<div class="inbox">
+							
+							<div class="rating">
+								<a href="#"><i id="facebook" class="fa-brands fa-facebook"></i></a>
+								<a href="#"><i id="whatsapp" class="fa-brands fa-whatsapp"></i></a>
+								<a href="#"><i id="instagram"class="fa-brands fa-instagram"></i></a>
+								
+							</div>
+				        </div>
+					</div>
+
+				    <div class="heart">
+						<i class="fa-solid fa-bars"></i>
+				    </div>
+				</div>
+
+				<div class="box">
+					<div class="box-img">
+						<img src="img/combo8.jpg" class="">
+					</div> 
+					<div class="">
+						<h4>Bodka Apple 750ml + Ginger 2L + Hielo</h4>
+						<p class="tachado">Precio : $24.99</p>
+						<h4 class=" precio">S/. <span class="">20.99</span> </h4>
+						<a href="#" class="price agregar-carrito" data-id="7">Comprar</a>
+						<div class="inbox">
+							
+							<div class="rating">
+								<a href="#"><i id="facebook" class="fa-brands fa-facebook"></i></a>
+								<a href="#"><i id="whatsapp" class="fa-brands fa-whatsapp"></i></a>
+								<a href="#"><i id="instagram"class="fa-brands fa-instagram"></i></a>
+								
+							</div>
+				        </div>
+					</div>
+
+				    <div class="heart">
+						<i class="fa-solid fa-bars"></i>
+				    </div>
+				</div>
+
+				<div class="box">
+					<div class="box-img">
+						<img src="img/combo9.jpg" class="">
+					</div> 
+					<div class="">
+						<h4>Red Label 1Litro + CocaCola 2L + Hielo</h4>
+						<p class="tachado">Precio : $24.99</p>
+						<h4 class=" precio">S/. <span class="">23.99</span> </h4>
+						<a href="#" class="price agregar-carrito" data-id="8">Comprar</a>
+						<div class="inbox">
+							
+							<div class="rating">
+								<a href="#"><i id="facebook" class="fa-brands fa-facebook"></i></a>
+								<a href="#"><i id="whatsapp" class="fa-brands fa-whatsapp"></i></a>
+								<a href="#"><i id="instagram"class="fa-brands fa-instagram"></i></a>
+								
+							</div>
+				        </div>
+					</div>
+
+				    <div class="heart">
+						<i class="fa-solid fa-bars"></i>
+				    </div>
+				</div>
+
+				<div class="box">
+					<div class="box-img">
+						<img src="img/combo10.jpg" class="">
+					</div> 
+					<div class="">
+						<h4>Ron Cartavio 1Litro + CocaCola 2L + Hielo</h4>
+						<p class="tachado">Precio : $44.99</p>
+						<h4 class=" precio">S/. <span class="">24.99</span> </h4>
+						<a href="#" class="price agregar-carrito" data-id="9">Comprar</a>
+						<div class="inbox">
+							
+							<div class="rating">
+								<a href="#"><i id="facebook" class="fa-brands fa-facebook"></i></a>
+								<a href="#"><i id="whatsapp" class="fa-brands fa-whatsapp"></i></a>
+								<a href="#"><i id="instagram"class="fa-brands fa-instagram"></i></a>
+								
+							</div>
+				        </div>
+					</div>
+
+				    <div class="heart">
+						<i class="fa-solid fa-bars"></i>
+				    </div>
+				</div>
+
+				<div class="box">
+					<div class="box-img">
+						<img src="img/combo11.jpg" class="">
+					</div> 
+					<div class="">
+						<h4>Bodka Russkaya 750ml + Cifrut 2L + Hielo</h4>
+						<p class="tachado">Precio : $34.99</p>
+						<h4 class=" precio">S/. <span class="">24.99</span> </h4>
+						<a href="#" class="price agregar-carrito" data-id="10">Comprar</a>
+						<div class="inbox">
+							
+							<div class="rating">
+								<a href="#"><i id="facebook" class="fa-brands fa-facebook"></i></a>
+								<a href="#"><i id="whatsapp" class="fa-brands fa-whatsapp"></i></a>
+								<a href="#"><i id="instagram"class="fa-brands fa-instagram"></i></a>
+								
+							</div>
+				        </div>
+					</div>
+
+				    <div class="heart">
+						<i class="fa-solid fa-bars"></i>
+				    </div>
+				</div>
+
+				<div class="box">
+					<div class="box-img">
+						<img src="img/combo12.jpg" class="">
+					</div> 
+					<div class="">
+						<h4>Ron Cartavio 750ml + CocaCola 2L + Hielo</h4>
+						<p class="tachado">Precio : $44.99</p>
+						<h4 class=" precio">S/. <span class="">24.99</span> </h4>
+						<a href="#" class="price agregar-carrito" data-id="11">Comprar</a>
+						<div class="inbox">
+							
+							<div class="rating">
+								<a href="#"><i id="facebook" class="fa-brands fa-facebook"></i></a>
+								<a href="#"><i id="whatsapp" class="fa-brands fa-whatsapp"></i></a>
+								<a href="#"><i id="instagram"class="fa-brands fa-instagram"></i></a>
+								
+							</div>
+				        </div>
+					</div>
+
+				    <div class="heart">
+						<i class="fa-solid fa-bars"></i>
+				    </div>
+				</div>
+
+				<div class="box">
+					<div class="box-img">
+						<img src="img/combo13.jpeg" class="">
+					</div> 
+					<div class="">
+						<h4>Ron Catavio 750ml + CocaCola 2L + Hielo</h4>
+						<p class="tachado">Precio : $24.99</p>
+						<h4 class=" precio">S/. <span class="">24.99</span> </h4>
+						<a href="#" class="price agregar-carrito" data-id="12">Comprar</a>
+						<div class="inbox">
+							
+							<div class="rating">
+								<a href="#"><i id="facebook" class="fa-brands fa-facebook"></i></a>
+								<a href="#"><i id="whatsapp" class="fa-brands fa-whatsapp"></i></a>
+								<a href="#"><i id="instagram"class="fa-brands fa-instagram"></i></a>
+								
+							</div>
+				        </div>
+					</div>
+
+				    <div class="heart">
+						<i class="fa-solid fa-bars"></i>
+				    </div>
+				</div>
+
+				<div class="box">
+					<div class="box-img">
+						<img src="img/combo14.jpeg" class="">
+					</div> 
+					<div class="">
+						<h4>Cerveza Corona Six Pack Botella 355 ml</h4>
+						<p class="tachado">Precio : $29.99</p>
+						<h4 class=" precio">S/. <span class="">20.99</span> </h4>
+						<a href="#" class="price agregar-carrito" data-id="13">Comprar</a>
+						<div class="inbox">
+							
+							<div class="rating">
+								<a href="#"><i id="facebook" class="fa-brands fa-facebook"></i></a>
+								<a href="#"><i id="whatsapp" class="fa-brands fa-whatsapp"></i></a>
+								<a href="#"><i id="instagram"class="fa-brands fa-instagram"></i></a>
+								
+							</div>
+				        </div>
+					</div>
+
+				    <div class="heart">
+						<i class="fa-solid fa-bars"></i>
+				    </div>
+				</div>
+
+				<div class="box">
+					<div class="box-img">
+						<img src="img/combo15.jpeg" class="">
+					</div> 
+					<div class="">
+						<h4>Cerveza Stella Six Pack Botella 330 ml</h4>
+						<p class="tachado">Precio : $24.99</p>
+						<h4 class=" precio">S/. <span class="">20.99</span> </h4>
+						<a href="#" class="price agregar-carrito" data-id="14">Comprar</a>
+						<div class="inbox">
+							
+							<div class="rating">
+								<a href="#"><i id="facebook" class="fa-brands fa-facebook"></i></a>
+								<a href="#"><i id="whatsapp" class="fa-brands fa-whatsapp"></i></a>
+								<a href="#"><i id="instagram"class="fa-brands fa-instagram"></i></a>
+								
+							</div>
+				        </div>
+					</div>
+
+				    <div class="heart">
+						<i class="fa-solid fa-bars"></i>
+				    </div>
+				</div>
+
+			</div>
+			
+			<div class="main-btn">
+				<a href="#" class="btn">PROMOCIONES</a>
+			</div>
+		</section>
+
+	</main>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sweetalert2.min.js"></script>
+    <script src="carrito.js"></script>
+    <script src="pedido.js"></script>
+	
+</body>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="script.js"></script>
+</html>

@@ -1,0 +1,134 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.SERVICIOS_HANS{
+    
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg,#71b7e6,#9b59b6);
+}
+.container{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding:25px 30px;
+    border-radius: 15px;
+
+}
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.container .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom:0;
+    height: 3px;
+    width: 30px;
+    background:linear-gradient(135deg,#71b7e6,#9b59b6);;
+}
+
+.container form .detalles_usuario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+form .detalles_usuario .input-box{
+    margin-bottom: 30px;
+    width: calc(100% / 2 - 20px);
+
+}
+.detalles_usuario .input-box .detalles{
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.detalles_usuario .input-box input {
+    height: 45px;
+    width: 100%;
+    outline-color: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size:16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.detalles_usuario .input-box input:focus,
+.detalles_usuario .input-box input:valid{
+    border-color:black ;
+
+}
+form .tip-tarjeta .titulo-tarjeta{
+    font-size:20px;
+    font-weight: 500;
+}
+form .tip-tarjeta .categoria{
+    display:flex;
+    width: 80%;
+    margin:14px 0;
+    justify-content: space-between;
+}
+.tip-tarjeta .categoria label{
+    display:flex;
+    align-items: center;
+
+}
+.tip-tarjeta .categoria .dot{
+    height: 18px;
+    width:18px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+    transition: all 0.5s ease;
+}
+#dot-1:checked ~.categoria label .uno,
+#dot-2:checked ~.categoria label .dos,
+#dot-4:checked ~.categoria label .cuatro,
+#dot-3:checked ~.categoria label .tres{
+    border-color: black;
+   
+}
+form input[type="radio"]{
+    display: none;
+}
+
+.siguiente{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+}
+
+.principal{
+    background-color: #71b7e6;
+    font-size: 100px;
+    color:white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: black;
+    
+}
+.cancelar{
+    text-align: right;
+    padding: 20px 30px 20px 20px;
+}
+.usar-img{
+    padding: 28px 0px 5px 0px;
+}
+.rechazar-img{ 
+    padding: 20px 0px 5px 25px;
+}
+.confirmar-img{ 
+    padding: 20px 0px 5px 190px;
+}

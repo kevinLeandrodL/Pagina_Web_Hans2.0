@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="website icon" type="svg" href="img/atla.svg">
+	<title>Minimarket HANS</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <script src="https://kit.fontawesome.com/4477d2e0c5.js" crossorigin="anonymous"></script>	
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<header>
+		<a href="#" class="logo">
+            <i class="fa-brands fa-atlassian"></i>HANS
+        </a>
+
+		<ul class="navbar">
+			<li><a href="#home">Hogar</a></li>
+			<li><a href="#categories">Categorias</a></li>
+			<li><a href="#servicios">Servicios</a></li>
+			<li><a href="#promociones">Promociones</a></li>
+			<li><a href="#contact">Contactanos</a></li>
+		</ul>
+
+		<div class="header-icons">
+			<a href="login.html" target="_blank"><i class='bx bx-user'>Login</i></a>
+			<a href="CarritoCompra.html" target="_blank"><i class='bx bx-cart' >Compras</i></a>
+			<div class="bx bx-menu" id="menu-icon"></div>
+		</div>
+	</header>
+
+	<section class="home" id="home">
+		<div class="home-text">
+			<h6>Atención 24h/7d</h6>
+			<h1>BIENVENIDO A HANS <br>Tienda Virtual</h1>
+			<p>Ingrese nombre del producto</p>
+			<div class="latter">
+				<form>
+					<input type="search" placeholder="Ingrese.." required>
+					<input type="submit" value="Buscar" required>
+				</form>
+			</div>
+		</div>
+
+		<div class="home-img">
+			<img src="img/home1.png">
+		</div>
+	</section>
+
+<!--CATEGORIAS-->
+	<section class="section promotion" id="categories">
+		<div class="center-text">
+			<h5>Catalogo</h5>
+			<h2>CATEGORIAS</h2>
+		</div>
+	
+		<div class="promotion-layout container">
+		  <div class="promotion-item">
+			<h3>BEBIDAS ALCOHOLICAS</h3><br>
+			<a href="productos.html"><img src="img/bebida1.png" alt="" /></a>
+		  </div>
+	
+		  <div class="promotion-item">
+			<h3>BEBIDAS NO ALCOHOLICAS</h3><br>
+			<a href="#"><img src="img/bebida.png" alt="" /></a>
+		  </div>
+	
+		  <div class="promotion-item">
+			<h3>NUESTRO SNACKS</h3><br>
+			<a href="#"><img src="img/snack.png" alt="" /></a>
+		  </div>
+	
+		  <div class="promotion-item">
+			<h3>NUESTRO POSTRES</h3><br>
+			<a href="#"><img src="img/torta.png" alt="" /></a>
+		  </div>
+	
+		  <div class="promotion-item">
+			<h3>BEBIDAS LACTEAS</h3><br>
+			<a href="#"><img src="img/yogurt.png" alt="" /></a>
+		  </div>
+	
+		  <div class="promotion-item">
+			<h3>HELADO SABORES</h3><br>
+			<a href="#"><img src="img/helados.png" alt="" /></a>
+		  </div>
+		</div>
+	  </section>
+
+	  
+
+<!---SERVICIOS---->
+	<section class="categories" id="servicios">
+		<div class="center-text">
+			<h5>24HORAS / 7HORAS</h5>
+			<h2>Nuestros Servicios</h2>
+		</div>
+
+		<div class="categories-content">
+			<div class="box">
+				<a href="servicios/Pago.html" target="_blank"><img src="img/cate2.png"></a>
+				<h3>COMPRAS EN LINEA</h3>
+			</div>
+
+			<div class="box">
+				<a href="servicios/Retiro.html" target="_blank"><img src="img/cate3.png"></a>
+				<h3>RETIRO EN TIENDA</h3>
+			</div>
+
+			<div class="box">
+				<a href="servicios/despacho_d.html" target="_blank"><img src="img/cate4.png"></a>
+				<h3>DESPACHO A DOMICILIO</h3>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="cta">
+		<div class="cta-text">
+			<h6>SABADO DE DESCUENTOS</h6>
+			<h4>20% OFF <br>BEBIDAS <br>ALCOHOLICAS</h4>
+			<a href="productos.html" class="btn">COMPRAR ¡YA!</a>
+		</div>
+	</section>	
+
+
+	<!---PROMOCIONES---->
+	<section class="product" id="promociones">
+		<div class="center-text">
+			<h5>PRODUCTOS</h5>
+			<h2>LAS MEJORES PROMOCIONES</h2>
+		</div>
+
+		<div class="promotion-product">
+			<div class="box">
+				<div class="box-img">
+					<img src="img/promo1.png">
+				</div>
+				<h3>Ron Cartavio 750ml + CocaCola 2L + Hielo</h3>
+				<p class="tachado">Precio : $29.99</p>
+				<h4>Precio : $24.99</h4>
+				<div class="inbox">
+					<div>
+						<a href="productos.html" class="price">Comprar</a>
+					</div>
+					<div class="rating">
+						<a href="https://www.facebook.com/minimarketeltribunal" target="_blank"><i id="facebook" class="fa-brands fa-facebook"></i></a>
+						<a href="https://www.whatsapp.com/?lang=es" target="_blank"><i id="whatsapp" class="fa-brands fa-whatsapp"></i></a>
+						<a href="https://www.instagram.com/" target="_blank"><i id="instagram"class="fa-brands fa-instagram"></i></a>
+					</div>
+				</div>
+
+				<div class="heart">
+					<a href="CarritoCompra.html" ><i class="fa-solid fa-bars"></i></a>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="box-img">
+					<img src="img/combo3.jpg">
+				</div>
+				<h3>Red Label 750ml + Guarana 2L + Hielo</h3>
+				<p class="tachado">Precio : $39.99</p>
+				<h4>Precio : $24.99</h4>
+				<div class="inbox">
+					<div>
+						<a href="productos.html" class="price">Comprar</a>
+					</div>
+					<div class="rating">
+						<a href="https://www.facebook.com/minimarketeltribunal" target="_blank"><i id="facebook" class="fa-brands fa-facebook"></i></a>
+						<a href="https://www.whatsapp.com/?lang=es" target="_blank"><i id="whatsapp" class="fa-brands fa-whatsapp"></i></a>
+						<a href="https://www.instagram.com/" target="_blank"><i id="instagram"class="fa-brands fa-instagram"></i></a>
+					</div>
+				</div>
+
+				<div class="heart">
+					<a href="CarritoCompra.html" ><i class="fa-solid fa-bars"></i></a>
+				</div>
+			</div>
+			<div class="box">
+				<div class="box-img">
+					<img src="img/combo4.png">
+				</div>
+				<h3>Ron Ballenites 500ml + Guarana 2L + Hielo</h3>
+				<p class="tachado">Precio : $49.99</p>
+				<h4>Precio : $24.99</h4>
+				<div class="inbox">
+					<div>
+						<a href="productos.html" class="price">Comprar</a>
+					</div>
+					<div class="rating">
+						<a href="https://www.facebook.com/minimarketeltribunal" target="_blank"><i id="facebook" class="fa-brands fa-facebook"></i></a>
+						<a href="https://www.whatsapp.com/?lang=es" target="_blank"><i id="whatsapp" class="fa-brands fa-whatsapp"></i></a>
+						<a href="https://www.instagram.com/" target="_blank"><i id="instagram"class="fa-brands fa-instagram"></i></a>
+					</div>
+				</div>
+
+				<div class="heart">
+					<a href="CarritoCompra.html" ><i class="fa-solid fa-bars"></i></a>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="box-img">
+					<img src="img/combo5.png">
+				</div>
+				<h3>Ron Cartavio 750ml + Coca Cola 2L</h3>
+				<p class="tachado">Precio : $29.99</p>
+				<h4>Precio : $24.99</h4>
+				<div class="inbox">
+					<div>
+						<a href="productos.html" class="price">Comprar</a>
+					</div>
+					<div class="rating">
+						<a href="https://www.facebook.com/minimarketeltribunal" target="_blank"><i id="facebook" class="fa-brands fa-facebook"></i></a>
+						<a href="https://www.whatsapp.com/?lang=es" target="_blank"><i id="whatsapp" class="fa-brands fa-whatsapp"></i></a>
+						<a href="https://www.instagram.com/" target="_blank"><i id="instagram"class="fa-brands fa-instagram"></i></a>
+					</div>
+				</div>
+
+				<div class="heart">
+					<a href="CarritoCompra.html" ><i class="fa-solid fa-bars"></i></a>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="box-img">
+					<img src="img/combo6.jpg">
+				</div>
+				<h3>Ron Dark Black 750ml + CocaCola 2L + Hielo</h3>
+				<p class="tachado">Precio : $29.99</p>
+				<h4>Precio : $24.99</h4>
+				<div class="inbox">
+					<div>
+						<a href="productos.html" class="price">Comprar</a>
+					</div>
+					<div class="rating">
+						<a href="https://www.facebook.com/minimarketeltribunal" target="_blank"><i id="facebook" class="fa-brands fa-facebook"></i></a>
+						<a href="https://www.whatsapp.com/?lang=es" target="_blank"><i id="whatsapp" class="fa-brands fa-whatsapp"></i></a>
+						<a href="https://www.instagram.com/" target="_blank"><i id="instagram"class="fa-brands fa-instagram"></i></a>
+					</div>
+				</div>
+
+				<div class="heart">
+					<a href="CarritoCompra.html" ><i class="fa-solid fa-bars"></i></a>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="box-img">
+					<img src="img/combo7.png">
+				</div>
+				<h3>Vino 1Litro + CocaCola 2L + Hielo</h3>
+				<p class="tachado">Precio : $39.99</p>
+				<h4>Precio : $24.99</h4>
+				<div class="inbox">
+					<div>
+						<a href="productos.html" class="price">Comprar</a>
+					</div>
+					<div class="rating">
+						<a href="https://www.facebook.com/minimarketeltribunal" target="_blank"><i id="facebook" class="fa-brands fa-facebook"></i></a>
+						<a href="https://www.whatsapp.com/?lang=es" target="_blank"><i id="whatsapp" class="fa-brands fa-whatsapp"></i></a>
+						<a href="https://www.instagram.com/" target="_blank"><i id="instagram"class="fa-brands fa-instagram"></i></a>
+					</div>
+				</div>
+
+				<div class="heart">
+					<a href="CarritoCompra.html" ><i class="fa-solid fa-bars"></i></a>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="box-img">
+					<img src="img/combo8.jpg">
+				</div>
+				<h3>Bodka Apple 750ml + Ginger 2L + Hielo</h3>
+				<p class="tachado">Precio : $49.99</p>
+				<h4>Precio : $24.99</h4>
+				<div class="inbox">
+					<div>
+						<a href="productos.html" class="price">Comprar</a>
+					</div>
+					<div class="rating">
+						<a href="https://www.facebook.com/minimarketeltribunal" target="_blank"><i id="facebook" class="fa-brands fa-facebook"></i></a>
+						<a href="https://www.whatsapp.com/?lang=es" target="_blank"><i id="whatsapp" class="fa-brands fa-whatsapp"></i></a>
+						<a href="https://www.instagram.com/" target="_blank"><i id="instagram"class="fa-brands fa-instagram"></i></a>
+					</div>
+				</div>
+
+				<div class="heart">
+					<a href="CarritoCompra.html" ><i class="fa-solid fa-bars"></i></a>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="box-img">
+					<img src="img/combo9.jpg">
+				</div>
+				<h3>Wisky Label 750ml + Ginger 2L + Hielo</h3>
+				<p class="tachado">Precio : $49.99</p>
+				<h4>Precio : $24.99</h4>
+				<div class="inbox">
+					<div>
+						<a href="productos.html" class="price">Comprar</a>
+					</div>
+					<div class="rating">
+						<a href="https://www.facebook.com/minimarketeltribunal" target="_blank"><i id="facebook" class="fa-brands fa-facebook"></i></a>
+						<a href="https://www.whatsapp.com/?lang=es" target="_blank"><i id="whatsapp" class="fa-brands fa-whatsapp"></i></a>
+						<a href="https://www.instagram.com/" target="_blank"><i id="instagram"class="fa-brands fa-instagram"></i></a>
+					</div>
+				</div>
+
+				<div class="heart">
+					<a href="CarritoCompra.html" ><i class="fa-solid fa-bars"></i></a>
+				</div>
+			</div>
+
+		</div>
+		
+		<div class="main-btn">
+			<a href="productos.html" class="btn">VER CATALOGO</a>
+		</div>
+	</section>
+<!---REFERENCIAS--->
+    <section>
+		
+	</section>
+
+<!---FORMULARIO---->
+	<section class="about" id="referencia">
+		<div class="about-img">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62425.09547136041!2d-77.04256608490532!3d-12.073184494220774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c9b486fca793%3A0xb7547b098dfc4467!2sParque%20de%20la%20Benemerita%20Guardia%20Civil!5e0!3m2!1sen!2spe!4v1668043631056!5m2!1sen!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>	
+		</div>
+		<div class="about-text"><h2>Formulario en linea</h2>
+			<div class="formulario-about">
+				<span class="detalles">Nombres</span>
+				<input class="formulario-text" type="text" placeholder="Ingrese su nombre" required>
+			</div>
+			<div class="formulario-about">
+				<span class="detalles">Correo Electronico</span>
+				<input class="formulario-text" type="text" placeholder="Ingrese correo electronico" required>
+			</div>
+			<div class="formulario-about">
+				<div class="mensaje-about"><span class="detalles">Mensaje</span>
+				<input class="formulario-text" type="text" placeholder="... " required>
+			</div>
+			</div>
+		</div>
+	</section>
+
+<!---CONTACTOS---->
+	<section class="contact" id="contact">
+		<div class="main-contact">
+			<div class="contact-content">
+				<div class="mss"><img src="img/atla.svg"></div>
+				<br>
+				<li><a href="https://www.facebook.com/minimarketeltribunal" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+				<li><a href="https://www.whatsapp.com/?lang=es" target="_blank"><i class="fa-brands fa-whatsapp"></i>  Whatsapp</a></li>
+				<li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+			</div>
+
+			<div class="contact-content">
+				<li><a href="#home">Hogar</a></li>
+			  <li><a href="#categories">Categoriass</a></li>
+			  <li><a href="#servicios">Servicios</a></li>
+			  <li><a href="#promociones">Promociones</a></li>
+			  <li><a href="#contactanos">Contactanos</a></li>
+			</div>
+
+			<div class="contact-content">
+				<li><a href="login.html">Iniciar</a></li>
+				<li><a href="login.html">Registrarte</a></li>
+				<li><a href="CarritoCompra.html">Compras</a></li>
+				<li><a href="#">Referencias</a></li>
+			</div>
+
+			<div class="contact-content">
+				<li><a href="#">Perú, Lima<br> Lince, Depart 1320 C201</a></li>
+				<li><a href="#">Minimarkethans@hotmail.com</a></li>
+				<li><a href="#">(+51) 992 625 411</a></li>
+			</div>
+
+		</div>
+	</section>
+
+	<div class="last-text">
+		<p>© 2022 Minimarket HANS. All rights reserved.</p>
+	</div>
+
+
+	<!---custom js link---->
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>

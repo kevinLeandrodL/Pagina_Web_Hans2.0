@@ -68,6 +68,68 @@ header .logo
 	color: var(--main-color);
 }
 
+.social-bar-burbuja {
+	position: fixed;
+	left: 0;
+	top: 85%;
+	font-size: 4.5rem;
+	display: flex;
+	align-items: flex-end;
+	z-index: 100;
+}
+.icon-message{
+	margin: 0 0 0 15px;
+}
+
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-facebook {
+	background: #23428e;
+}
+
+.icon-whatsapp {
+	background: #33c553;
+}
+
+.icon-instagram {
+	background: #E83028;
+}
+
+.icon-tiktok {
+	background: #111111;
+}
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
 #menu-icon{
 	font-size: 34px;
 	color: var(--text-color);
@@ -448,8 +510,6 @@ section .mss{
 }
 
 
-
-
 @media (max-width: 1050px){
 	:root{
 		--big-font: 3.2rem;
@@ -517,5 +577,51 @@ section .mss{
 @media (max-width: 600px){
 	.home{
 		height: 120vh;
+	}
+}
+
+@media(max-width: 620px){
+	.center-text{
+		padding: 70px;
+		align-items: center;
+	}
+	.promotion-layout{
+		align-items: center;
+		display: flex;
+		padding: 5px 50px;
+		flex-direction: column;
+	}
+	.promotion-item{
+		padding: 1px 1px;
+	}
+}
+
+@media(max-width: 830px){
+	.cta{
+		background-position: 5%;
+	}
+}
+
+@media(max-width: 780px){
+	.cta-text{
+		display: none;
+	}
+}
+
+@media(max-width: 622px){
+	.promotion-product{
+		align-items: center;
+		display: flex;
+		padding: 1px 45px;
+		flex-direction: column;
+	}
+}
+
+@media(max-width: 622px){
+	.main-contact{
+		align-items:flex-start;
+		display: flex;
+		padding: 1px 90px;
+		flex-direction: column;
 	}
 }

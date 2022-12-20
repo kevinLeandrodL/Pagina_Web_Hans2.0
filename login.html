@@ -5,20 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/stylelogin.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <title>Acceso</title>
+
 </head>
 
 <body>
     <div class="container-form sign-up">
-        <div class="welcome-back">
+        <div class="welcomeback-uno">
+
             <div class="message">
-                <h2>Bienvenido a la tienda "HANS"</h2>
-                <p>Si ya tienes una cuenta por favor inicia sesion aqui</p>
+
                 <button class="sign-up-btn">Iniciar Sesion</button>
             </div>
         </div>
@@ -26,20 +27,16 @@
             <h2 class="create-account">Crear una cuenta</h2>
             <div class="iconos">
                 <div class="border-icon">
-                    <i class='bx bxl-instagram'></i>
+                    <a href="https://www.instagram.com/accounts/login/"><i class='bx bxl-instagram'></i></a>
                 </div>
                 <div class="border-icon">
-                    <i class='bx bxl-linkedin' ></i>
+                    <a href="https://www.linkedin.com/login/es"><i class='bx bxl-linkedin'></i></a>
                 </div>
                 <div class="border-icon">
-                    <i class='bx bxl-facebook-circle' ></i>
+                    <a href="https://www.facebook.com/login/"><i class='bx bxl-facebook-circle'></i></a>
                 </div>
             </div>
-            <p class="cuenta-gratis">Ingrese sus datos</p>
-            <input type="text" placeholder="Nombre">
-            <input type="email" placeholder="Correo electronico">
-            <input type="password" placeholder="Contraseña">
-            <input type="button" value="Registrarse">
+            
         </form>
     </div>
     <div class="container-form sign-in">
@@ -47,29 +44,26 @@
             <h2 class="create-account">Iniciar Sesion</h2>
             <div class="iconos">
                 <div class="border-icon">
-                    <i class='bx bxl-instagram'></i>
+                    <a href="https://www.instagram.com/accounts/login/"><i class='bx bxl-instagram'></i></a>
                 </div>
                 <div class="border-icon">
-                    <i class='bx bxl-linkedin' ></i>
+                    <a href="https://www.linkedin.com/login/es"><i class='bx bxl-linkedin'></i></a>
                 </div>
                 <div class="border-icon">
-                    <i class='bx bxl-facebook-circle' ></i>
+                    <a href="https://www.facebook.com/login/"><i class='bx bxl-facebook-circle'></i></a>
                 </div>
-            </div>
-            <p class="cuenta-gratis">¿Aun no tienes una cuenta?</p>
-            <input type="email" placeholder="Correo electronico">
-            <input type="password" placeholder="Contraseña">
-            <input type="button" value="Ingresar">
+
+                
+            </div>  
+
+                <a href="clienteRegistrado.php" type="button" clase="ancla">Existe</a>
+                <a href="agregarCliente.php" type="button" clase="ancla">Crear</a>
+            
         </form>
-        <div class="welcome-back">
-            <div class="message">
-                <h2>¿Eres un nuevo cliente?</h2>
-                <p>Si aun no tienes una cuenta por favor registrese aqui</p>
-                <button class="sign-in-btn">Registrarse</button>
-            </div>
-        </div>
+        
+
     </div>
-    <script src="script.js"></script>
+    
 </body>
 
 </html>
